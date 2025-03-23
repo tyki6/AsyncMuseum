@@ -1,13 +1,11 @@
-import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import "../globals.css";
 import { Piece } from "@/interface/pieces";
 import useSWR from 'swr';
 import { fetcher } from '@/utils';
 import Head from 'next/head';
-
+import Image from 'next/image'
 export default function OeuvrePage() {
   const router = useRouter();
   const { id } = router.query; // On récupère l'id de l'URL
@@ -24,7 +22,7 @@ export default function OeuvrePage() {
               <div className="flex w-full max-w-6xl bg-white lg:rounded-xl shadow-lg overflow-hidden">
                   {/* Partie gauche: Image */}
                   <div className="w-full md:w-1/2 h-screen">
-                      <img
+                      <Image
                           src={data.photos}
                           alt={data.nom}
                           className="object-cover w-full h-full" />

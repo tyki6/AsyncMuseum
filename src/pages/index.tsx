@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
 import "./globals.css";
 import * as React from "react";
-
+import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -32,7 +31,7 @@ export function CarouselMuseum() {
         <header className="w-full text-center py-10 bg-gray-800 text-white">
           <h1 className="text-4xl font-extrabold">Le Tiktok Musée</h1>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
-            Bienvenue dans notre musée virtuel, où l'art rencontre l'histoire. Découvrez des œuvres emblématiques qui ont marqué des époques et des cultures à travers les siècles.
+            Bienvenue dans notre musée virtuel, où l&apos;art rencontre l&apos;histoire. Découvrez des œuvres emblématiques qui ont marqué des époques et des cultures à travers les siècles.
           </p>
         </header>
         <Carousel className="w-full py-12 bg-white">
@@ -42,7 +41,7 @@ export function CarouselMuseum() {
                 <Card className="flex flex-col shadow-lg rounded-xl overflow-hidden transition-all duration-300 transform hover:scale-102 hover:shadow-lg hover:shadow-gray-400">
                   <Link href={`/oeuvres/${piece.id}`}>
                     <div className="w-full" style={{ height: '200px' }}>
-                      <img
+                    <Image
                         src={piece.photos}
                         alt={piece.nom}
                         className="object-cover w-full h-full rounded-t-xl"
@@ -73,7 +72,7 @@ export function CarouselMuseum() {
         <footer className="w-full py-8 bg-gray-800 text-white">
           <div className="max-w-5xl mx-auto text-center">
             <p className="text-lg">
-              Ce site est dédié à <Link href="https://www.youtube.com/@Gravenilvectuto">l'Async League du Youtuber Graven</Link> et réalisé pour le TikTokeur <Link href="https://www.tiktok.com/@tyki6">Tyki6</Link>.
+              Ce site est dédié à <Link href="https://www.youtube.com/@Gravenilvectuto">l&apos;Async League du Youtuber Graven</Link> et réalisé pour le TikTokeur <Link href="https://www.tiktok.com/@tyki6">Tyki6</Link>.
             </p>
             <p className="mt-2 text-sm">
               Développé avec ❤️ par <Link href="https://www.tiktok.com/@tyki6">Tyki6</Link> | Powered by Next.js et Tailwind CSS
