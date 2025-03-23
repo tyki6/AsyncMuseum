@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { deletePieceById, getPieceById, modifyPiece } from '@/utils/pieces';
 import { Piece } from '@/interface/pieces';

@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import { NextApiRequest, NextApiResponse } from 'next';
 import { Piece } from '@/interface/pieces';
 
 const dataFile = path.join(process.cwd(), 'data', 'pieces.json');
