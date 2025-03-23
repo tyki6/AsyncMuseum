@@ -1,4 +1,3 @@
-import "./globals.css";
 import * as React from "react";
 import Image from 'next/image'
 import { Card, CardContent } from "@/components/ui/card";
@@ -45,6 +44,8 @@ export function CarouselMuseum() {
                         src={piece.photos}
                         alt={piece.nom}
                         className="object-cover w-full h-full rounded-t-xl"
+                        width={500}
+                        height={500} 
                       />
                     </div>
                     <CardContent className="h-1/2 p-4 bg-white flex flex-col justify-between rounded-b-xl">
