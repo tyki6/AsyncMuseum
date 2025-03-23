@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import { Button } from "@/components/ui/button";
-import "../globals.css";
 import { Piece } from "@/interface/pieces";
 import useSWR from 'swr';
 import { fetcher } from '@/utils';
@@ -25,7 +24,9 @@ export default function OeuvrePage() {
                       <Image
                           src={data.photos}
                           alt={data.nom}
-                          className="object-cover w-full h-full" />
+                          className="object-cover w-full h-full"
+                          width={500}
+                          height={500} />
                   </div>
 
                   {/* Partie droite: Détails de l'œuvre */}
