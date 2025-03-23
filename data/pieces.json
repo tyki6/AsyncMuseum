@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nom": "La Joconde",
+    "auteur": "Léonard de Vinci",
+    "description": "La Joconde, peinte par Léonard de Vinci entre 1503 et 1516, est un portrait de Lisa Gherardini, épouse de Francesco del Giocondo. Exposée au Louvre, cette œuvre iconique est célèbre pour son sourire mystérieux et son réalisme exceptionnel.",
+    "type": "tableau",
+    "date": "1503-01-01",
+    "lieu": "Louvre",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Le Cri",
+    "auteur": "Edvard Munch",
+    "type": "tableau",
+    "date": "1893-01-01",
+    "lieu": "Galerie nationale d'Oslo",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "La Nuit étoilée",
+    "auteur": "Vincent van Gogh",
+    "type": "tableau",
+    "date": "1889-06-01",
+    "lieu": "MoMA, New York",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Le Penseur",
+    "auteur": "Auguste Rodin",
+    "type": "statue",
+    "date": "1904-01-01",
+    "lieu": "Musée Rodin, Paris",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_March_2014.jpg/260px-Le_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_March_2014.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "La Vénus de Milo",
+    "auteur": "Alexandros d'Antioche",
+    "type": "statue",
+    "date": "-130-01-01",
+    "lieu": "Louvre, Paris",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/330px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Guernica",
+    "auteur": "Pablo Picasso",
+    "type": "tableau",
+    "date": "1937-06-01",
+    "lieu": "Musée Reina Sofía, Madrid",
+    "photos": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg"
+  }
+]
