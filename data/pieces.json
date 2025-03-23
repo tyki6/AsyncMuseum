@@ -53,5 +53,15 @@
     "date": "1937-06-01",
     "lieu": "Musée Reina Sofía, Madrid",
     "photos": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg"
+  },
+  {
+    "id": 1742748104610,
+    "nom": "Graven",
+    "auteur": "Graven",
+    "description": "Bel homme",
+    "type": "Youtube",
+    "date": "2025-02-05",
+    "lieu": "Paris",
+    "photos": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apollo_of_the_Belvedere.jpg/250px-Apollo_of_the_Belvedere.jpg"
   }
 ]
