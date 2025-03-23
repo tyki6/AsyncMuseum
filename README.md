@@ -1,16 +1,5 @@
 # AsyncMuseum
-language typescript
-backend: nextjs
-frontend nextjs
-
-back object:
-piece de musée
-- Nom: string
-- auteur: string
-- type (tableau, statue,): Enum
-- date: date
-- lieu: string
-- photos: string.
+lien: https://tykimuseum.vercel.app/
 
 ## Getting Started
 
